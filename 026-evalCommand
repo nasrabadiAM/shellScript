@@ -1,0 +1,3 @@
+The eval command is a built-in command. It takes a string as its argument and evaluate it, then run the command stored in the argument. It allows using the value of a variable as a variable.
+
+
