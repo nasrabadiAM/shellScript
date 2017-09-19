@@ -1,0 +1,7 @@
+Shell Scripting getopts options
+
+The getopts options are used in shell scripts to parse arguments passed to them. When arguments are passed on the command line, getopts parse those arguments instead of command lines.
+
+Options are written starting with a hyphen (-), followed by the letter. For example, -a, -b, -c, -d, etc.
+
+
