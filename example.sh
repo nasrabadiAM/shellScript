@@ -12,4 +12,6 @@ echo Total number of args: $#
 
 echo  all the arguments as a single string: $∗
 
-echo  Same as $∗, but differ when enclosed (\") : $@
+echo  Same as $∗, but differ when enclosed \(\"\"\) \: $@
+
+echo   "\$? :Represent last return code" \=\>$?

@@ -1,0 +1,22 @@
+A bash shell script have parameters. These parameters start from $1 to $9.
+
+When we pass arguments into the command line interface, a positional parameter is assigned to these arguments through the shell.
+
+The first argument is assigned as $1, second argument is assigned as $2 and so on...
+
+If there are more than 9 arguments, then tenth or onwards arguments can't be assigned as $10 or $11.
+
+You have to either process or save the $1 parameter, then with the help of shift command drop parameter 1 and move all other arguments down by one. It will make $10 as $9, $9 as $8 and so on.
+
+
+
+
+
+$1-$9	Represent positional parameters for arguments one to nine
+${10}-${n}	Represent positional parameters for arguments after nine
+$0	Represent name of the script
+$∗	Represent all the arguments as a single string
+$@	Same as $∗, but differ when enclosed in (")
+$#	Represent total number of arguments
+$$	PID of the script
+$?	Represent last return code

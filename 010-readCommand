@@ -1,0 +1,12 @@
+
+#!/bin/bash 
+
+echo enter your name
+
+read name
+
+echo enter your family
+
+read family
+
+echo your familyName is $family and your name is $name
