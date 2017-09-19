@@ -1,0 +1,5 @@
+(( ))
+
+This sign is mainly used for numerical evaluation. It is a compound command.
+
+Look at the above snapshot, single bracket ( ) gives error while double bracket (( )) successfully executes the command.
