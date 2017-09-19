@@ -1,0 +1,5 @@
+A file is sourced in two ways. One is either writting as source <fileName> or other is writting as . ./<filename> in the command line. When a file is sourced, the code lines are executed as if they were printed on the command line.
+
+The difference between sourcing and executing a script is that, while executing a script it runs in a new shell whereas while sourcing a script, file will be read and executed in the same shell.
+
+In sourcing, script content is displayed in the same shell but while executing script run in a different shell.

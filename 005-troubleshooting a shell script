@@ -1,0 +1,11 @@
+There is one more way other than script execution to run a script in a different shell.
+
+bash <fileName>  
+
+
+
+
+By expanding bash command with -x, shell allows us to see commands that the shell is executing.
+
+bash -x <fileName>
+

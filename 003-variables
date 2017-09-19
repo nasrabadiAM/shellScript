@@ -1,0 +1,15 @@
+Scripts can contain variables inside the script.
+
+#example
+
+#!/bin/bash
+var1=ali
+var2=nasrabadi
+
+echo "hello $var1 $var2"
+
+#example
+
+
+ variables do not survive after the end of the script.
+

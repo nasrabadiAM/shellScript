@@ -1,0 +1,2 @@
+The sign #! is called she-bang and is written at top of the script. 
+It passes instruction to program /bin/sh.
