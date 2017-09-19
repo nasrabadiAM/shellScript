@@ -1,0 +1,10 @@
+The let command is an arithmetic operator. It is almost same as (( )). Only difference is that, let is an arithmetic command while (( )) is a compound command.
+
+It is a built-in command which instructs shell to perform an evaluation of arithmetic expressions. No spaces should be used around the arithmetic operant with let command.
+
+
+#example
+let i="20+234"
+echo $i
+
+resualt=> 254
